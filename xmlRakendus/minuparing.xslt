@@ -55,7 +55,6 @@
 							<xsl:value-of select="$lasteArv"/>
 						</td>
 						<td>
-							<!-- Minu ülesanne. Välja tuua konkreetse isiku laste nimede nimekiri -->
 							<xsl:for-each select="lapsed/inimene">
 								<xsl:value-of select="nimi"/>
 								<xsl:if test="position()!=last()">, </xsl:if>
