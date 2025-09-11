@@ -1,5 +1,6 @@
 # Minu ülesanne
 1. Tee tabel, kus on näidatud vanaemad ja nende lapselapsed.
+   
 Ma tegin eraldi tabeli, kus on kirjas vanaemade nimed ja nende lapselapsed, samuti on eraldi veerus kirjas lapselaste arv.
 
 <img width="754" height="911" alt="image" src="https://github.com/user-attachments/assets/e501e502-4ca1-4183-b402-8a11f3829b95" />
