@@ -1,162 +1,163 @@
-﻿<reisid>
-	<reis lennukestus="3.00" transport="Ford" hind="29.99">
+﻿<reisid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="reis.xsd">
+	<reis lennukestus="3.00" transport="Ford" hind="29.99" transpordi_hind="15" majutus="50" ekskursioon="20" muu="10">
 		<lennujaam nimi="Syracuse Hancock International Airport" number="AF1768" riigikood="US">
-			<aeg valjumisaeg="1900-01-01T07:00:00" valjumislinn="Paris" saabumisriik="Austria" />
+			<aeg valjumisaeg="1900-01-01T07:00:00" valjumislinn="Paris" saabumisriik="Austria"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="15.00" transport="Subaru" hind="149.99">
+	<reis lennukestus="15.00" transport="Airbus" hind="149.99" transpordi_hind="25" majutus="55" ekskursioon="22" muu="12">
 		<lennujaam nimi="Persian Gulf International Airport" number="UA5107" riigikood="IR">
-			<aeg valjumisaeg="1900-01-01T09:00:00" valjumislinn="Los Angeles" saabumisriik="Netherlands" />
+			<aeg valjumisaeg="1900-01-01T09:00:00" valjumislinn="Los Angeles" saabumisriik="Netherlands"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="4.00" transport="Toyota" hind="6.99">
+	<reis lennukestus="4.00" transport="Toyota" hind="6.99" transpordi_hind="10" majutus="40" ekskursioon="15" muu="5">
 		<lennujaam nimi="Fakfak Airport" number="BA6344" riigikood="ID">
-			<aeg valjumisaeg="1900-01-01T09:15:00" valjumislinn="London" saabumisriik="France" />
+			<aeg valjumisaeg="1900-01-01T09:15:00" valjumislinn="London" saabumisriik="France"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Hyundai" hind="2.99">
+	<reis lennukestus="3.00" transport="Hyundai" hind="2.99" transpordi_hind="8" majutus="35" ekskursioon="12" muu="4">
 		<lennujaam nimi="Miramar Airport" number="SK9472" riigikood="AR">
-			<aeg valjumisaeg="1900-01-01T20:30:00" valjumislinn="Copenhagen" saabumisriik="France" />
+			<aeg valjumisaeg="1900-01-01T20:30:00" valjumislinn="Copenhagen" saabumisriik="France"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Mercedes-Benz" hind="24.99">
+	<reis lennukestus="3.00" transport="Mercedes-Benz" hind="24.99" transpordi_hind="20" majutus="45" ekskursioon="18" muu="8">
 		<lennujaam nimi="Semporna Airport" number="NH3030" riigikood="MY">
-			<aeg valjumisaeg="1900-01-01T11:00:00" valjumislinn="Tokyo" saabumisriik="South Korea" />
+			<aeg valjumisaeg="1900-01-01T11:00:00" valjumislinn="Tokyo" saabumisriik="South Korea"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Plymouth" hind="8.99">
+	<reis lennukestus="3.00" transport="Airbus" hind="8.99" transpordi_hind="12" majutus="38" ekskursioon="16" muu="6">
 		<lennujaam nimi="Silver Creek Airport" number="ET6816" riigikood="BZ">
-			<aeg valjumisaeg="1900-01-01T18:45:00" valjumislinn="Addis Ababa" saabumisriik="Qatar" />
+			<aeg valjumisaeg="1900-01-01T18:45:00" valjumislinn="Addis Ababa" saabumisriik="Qatar"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="5.00" transport="Volkswagen" hind="9.99">
+	<reis lennukestus="5.00" transport="Volkswagen" hind="9.99" transpordi_hind="18" majutus="42" ekskursioon="17" muu="7">
 		<lennujaam nimi="San Matías Airport" number="NZ6359" riigikood="BO">
-			<aeg valjumisaeg="1900-01-01T20:15:00" valjumislinn="Auckland" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T20:15:00" valjumislinn="Auckland" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="19.00" transport="Toyota" hind="9.99">
+	<reis lennukestus="19.00" transport="Toyota" hind="9.99" transpordi_hind="22" majutus="48" ekskursioon="19" muu="9">
 		<lennujaam nimi="Kaduna Airport" number="AV1619" riigikood="NG">
-			<aeg valjumisaeg="1900-01-01T10:30:00" valjumislinn="Bogotá" saabumisriik="China" />
+			<aeg valjumisaeg="1900-01-01T10:30:00" valjumislinn="Bogotá" saabumisriik="China"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Mercury" hind="2.49">
+	<reis lennukestus="1.50" transport="Mercury" hind="2.49" transpordi_hind="5" majutus="30" ekskursioon="10" muu="3">
 		<lennujaam nimi="Lelystad Airport" number="DL1701" riigikood="NL">
-			<aeg valjumisaeg="1900-01-01T15:00:00" valjumislinn="New York" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T15:00:00" valjumislinn="New York" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Mercury" hind="4.99">
+	<reis lennukestus="1.50" transport="Mercury" hind="4.99" transpordi_hind="6" majutus="32" ekskursioon="11" muu="4">
 		<lennujaam nimi="Mário de Almeida Franco Airport" number="DL8642" riigikood="BR">
-			<aeg valjumisaeg="1900-01-01T13:15:00" valjumislinn="New York" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T13:15:00" valjumislinn="New York" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="5.00" transport="Chevrolet" hind="19.99">
+	<reis lennukestus="5.00" transport="Chevrolet" hind="19.99" transpordi_hind="14" majutus="44" ekskursioon="16" muu="5">
 		<lennujaam nimi="Nipa Airport" number="NZ5489" riigikood="PG">
-			<aeg valjumisaeg="1900-01-01T17:15:00" valjumislinn="Auckland" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T17:15:00" valjumislinn="Auckland" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Saturn" hind="3.29">
+	<reis lennukestus="3.00" transport="Airbus" hind="3.29" transpordi_hind="7" majutus="33" ekskursioon="13" muu="4">
 		<lennujaam nimi="Colón Airport" number="AZ4341" riigikood="CU">
-			<aeg valjumisaeg="1900-01-01T20:15:00" valjumislinn="Rome" saabumisriik="Germany" />
+			<aeg valjumisaeg="1900-01-01T20:15:00" valjumislinn="Rome" saabumisriik="Germany"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Mercedes-Benz" hind="2.49">
+	<reis lennukestus="1.50" transport="Mercedes-Benz" hind="2.49" transpordi_hind="6" majutus="31" ekskursioon="12" muu="3">
 		<lennujaam nimi="Burevestnik Airport" number="QF1046" riigikood="RU">
-			<aeg valjumisaeg="1900-01-01T17:15:00" valjumislinn="Sydney" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T17:15:00" valjumislinn="Sydney" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Jeep" hind="5.99">
+	<reis lennukestus="1.50" transport="Jeep" hind="5.99" transpordi_hind="9" majutus="36" ekskursioon="14" muu="5">
 		<lennujaam nimi="Dhanbad Airport" number="QF1039" riigikood="IN">
-			<aeg valjumisaeg="1900-01-01T11:45:00" valjumislinn="Sydney" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T11:45:00" valjumislinn="Sydney" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Aston Martin" hind="2.79">
+	<reis lennukestus="3.00" transport="Airbus" hind="2.79" transpordi_hind="8" majutus="35" ekskursioon="12" muu="4">
 		<lennujaam nimi="Trondheim Airport Værnes" number="SK2136" riigikood="NO">
-			<aeg valjumisaeg="1900-01-01T06:30:00" valjumislinn="Copenhagen" saabumisriik="France" />
+			<aeg valjumisaeg="1900-01-01T06:30:00" valjumislinn="Copenhagen" saabumisriik="France"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Mazda" hind="1.99">
+	<reis lennukestus="3.00" transport="Mazda" hind="1.99" transpordi_hind="7" majutus="34" ekskursioon="11" muu="3">
 		<lennujaam nimi="Córdoba Airport" number="LA5423" riigikood="ES">
-			<aeg valjumisaeg="1900-01-01T21:30:00" valjumislinn="São Paulo" saabumisriik="Argentina" />
+			<aeg valjumisaeg="1900-01-01T21:30:00" valjumislinn="São Paulo" saabumisriik="Argentina"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Jeep" hind="4.49">
+	<reis lennukestus="3.00" transport="Jeep" hind="4.49" transpordi_hind="8" majutus="36" ekskursioon="13" muu="4">
 		<lennujaam nimi="South Bimini Airport" number="SA2730" riigikood="BS">
-			<aeg valjumisaeg="1900-01-01T06:00:00" valjumislinn="Johannesburg" saabumisriik="France" />
+			<aeg valjumisaeg="1900-01-01T06:00:00" valjumislinn="Johannesburg" saabumisriik="France"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Toyota" hind="5.49">
+	<reis lennukestus="3.00" transport="Airbus" hind="5.49" transpordi_hind="9" majutus="37" ekskursioon="14" muu="5">
 		<lennujaam nimi="Koulamoutou Mabimbi Airport" number="KL5305" riigikood="GA">
-			<aeg valjumisaeg="1900-01-01T14:15:00" valjumislinn="Amsterdam" saabumisriik="France" />
+			<aeg valjumisaeg="1900-01-01T14:15:00" valjumislinn="Amsterdam" saabumisriik="France"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Volkswagen" hind="34.99">
+	<reis lennukestus="1.50" transport="Volkswagen" hind="34.99" transpordi_hind="20" majutus="50" ekskursioon="25" muu="10">
 		<lennujaam nimi="Cibao International Airport" number="AA5870" riigikood="DO">
-			<aeg valjumisaeg="1900-01-01T08:45:00" valjumislinn="New York" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T08:45:00" valjumislinn="New York" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Chevrolet" hind="2.99">
+	<reis lennukestus="1.50" transport="Chevrolet" hind="2.99" transpordi_hind="7" majutus="33" ekskursioon="12" muu="3">
 		<lennujaam nimi="Vredendal Airport" number="QF5738" riigikood="ZA">
-			<aeg valjumisaeg="1900-01-01T16:30:00" valjumislinn="Sydney" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T16:30:00" valjumislinn="Sydney" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="10.00" transport="Dodge" hind="29.99">
+	<reis lennukestus="10.00" transport="Dodge" hind="29.99" transpordi_hind="16" majutus="46" ekskursioon="21" muu="9">
 		<lennujaam nimi="Raiatea Airport" number="NZ4282" riigikood="PF">
-			<aeg valjumisaeg="1900-01-01T10:30:00" valjumislinn="Auckland" saabumisriik="China" />
+			<aeg valjumisaeg="1900-01-01T10:30:00" valjumislinn="Auckland" saabumisriik="China"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Nissan" hind="3.29">
+	<reis lennukestus="1.50" transport="Nissan" hind="3.29" transpordi_hind="6" majutus="34" ekskursioon="13" muu="4">
 		<lennujaam nimi="Tibooburra Airport" number="AA4152" riigikood="AU">
-			<aeg valjumisaeg="1900-01-01T11:30:00" valjumislinn="New York" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T11:30:00" valjumislinn="New York" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Acura" hind="69.99">
+	<reis lennukestus="1.50" transport="Acura" hind="69.99" transpordi_hind="18" majutus="48" ekskursioon="20" muu="8">
 		<lennujaam nimi="Bonnyville Airport" number="AI9950" riigikood="CA">
-			<aeg valjumisaeg="1900-01-01T19:15:00" valjumislinn="Delhi" saabumisriik="India" />
+			<aeg valjumisaeg="1900-01-01T19:15:00" valjumislinn="Delhi" saabumisriik="India"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Infiniti" hind="24.99">
+	<reis lennukestus="3.00" transport="Airbus" hind="24.99" transpordi_hind="22" majutus="50" ekskursioon="24" muu="10">
 		<lennujaam nimi="Kharkhorin Airport" number="AV3749" riigikood="MN">
-			<aeg valjumisaeg="1900-01-01T11:15:00" valjumislinn="Bogotá" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T11:15:00" valjumislinn="Bogotá" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Chevrolet" hind="4.79">
+	<reis lennukestus="3.00" transport="Chevrolet" hind="4.79" transpordi_hind="12" majutus="38" ekskursioon="16" muu="6">
 		<lennujaam nimi="Aksu Airport" number="AF7015" riigikood="CN">
-			<aeg valjumisaeg="1900-01-01T09:00:00" valjumislinn="Paris" saabumisriik="Germany" />
+			<aeg valjumisaeg="1900-01-01T09:00:00" valjumislinn="Paris" saabumisriik="Germany"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="5.00" transport="Chevrolet" hind="99.99">
+	<reis lennukestus="5.00" transport="Chevrolet" hind="99.99" transpordi_hind="30" majutus="60" ekskursioon="25" muu="12">
 		<lennujaam nimi="Scarlett Martinez International Airport" number="NZ2540" riigikood="PA">
-			<aeg valjumisaeg="1900-01-01T10:15:00" valjumislinn="Auckland" saabumisriik="Australia" />
+			<aeg valjumisaeg="1900-01-01T10:15:00" valjumislinn="Auckland" saabumisriik="Australia"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Suzuki" hind="14.99">
+	<reis lennukestus="1.50" transport="Airbus" hind="14.99" transpordi_hind="10" majutus="42" ekskursioon="18" muu="7">
 		<lennujaam nimi="Enfidha - Hammamet International Airport" number="UA8290" riigikood="TN">
-			<aeg valjumisaeg="1900-01-01T16:45:00" valjumislinn="Los Angeles" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T16:45:00" valjumislinn="Los Angeles" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="GMC" hind="4.19">
+	<reis lennukestus="3.00" transport="GMC" hind="4.19" transpordi_hind="9" majutus="36" ekskursioon="14" muu="5">
 		<lennujaam nimi="Toulouse-Blagnac Airport" number="AV9554" riigikood="FR">
-			<aeg valjumisaeg="1900-01-01T09:15:00" valjumislinn="Bogotá" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T09:15:00" valjumislinn="Bogotá" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Volkswagen" hind="39.99">
+	<reis lennukestus="1.50" transport="Airbus" hind="39.99" transpordi_hind="21" majutus="52" ekskursioon="27" muu="11">
 		<lennujaam nimi="Kalymnos Airport" number="AI1679" riigikood="GR">
-			<aeg valjumisaeg="1900-01-01T21:30:00" valjumislinn="Delhi" saabumisriik="India" />
+			<aeg valjumisaeg="1900-01-01T21:30:00" valjumislinn="Delhi" saabumisriik="India"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="17.00" transport="Mercury" hind="19.99">
+	<reis lennukestus="17.00" transport="Mercury" hind="19.99" transpordi_hind="28" majutus="55" ekskursioon="23" muu="9">
 		<lennujaam nimi="Tivat Airport" number="LA8013" riigikood="ME">
-			<aeg valjumisaeg="1900-01-01T10:45:00" valjumislinn="São Paulo" saabumisriik="Singapore" />
+			<aeg valjumisaeg="1900-01-01T10:45:00" valjumislinn="São Paulo" saabumisriik="Singapore"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="3.00" transport="Hyundai" hind="15.99">
+	<reis lennukestus="3.00" transport="Hyundai" hind="15.99" transpordi_hind="14" majutus="45" ekskursioon="18" muu="7">
 		<lennujaam nimi="Rawalakot Airport" number="AC1668" riigikood="PK">
-			<aeg valjumisaeg="1900-01-01T10:45:00" valjumislinn="Toronto" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T10:45:00" valjumislinn="Toronto" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
-	<reis lennukestus="1.50" transport="Chevrolet" hind="15.99">
+	<reis lennukestus="1.50" transport="Chevrolet" hind="15.99" transpordi_hind="12" majutus="42" ekskursioon="16" muu="6">
 		<lennujaam nimi="El Tajín National Airport" number="DL1375" riigikood="MX">
-			<aeg valjumisaeg="1900-01-01T07:15:00" valjumislinn="New York" saabumisriik="USA" />
+			<aeg valjumisaeg="1900-01-01T07:15:00" valjumislinn="New York" saabumisriik="USA"/>
 		</lennujaam>
 	</reis>
 </reisid>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="reisid">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="reis">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="lennujaam">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="aeg">
+											<xs:complexType>
+												<xs:attribute name="valjumisaeg" type="xs:dateTime" use="required" />
+												<xs:attribute name="valjumislinn" type="xs:string" use="required" />
+												<xs:attribute name="saabumisriik" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="nimi" type="xs:string" use="required" />
+									<xs:attribute name="number" type="xs:string" use="required" />
+									<xs:attribute name="riigikood" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="lennukestus" type="xs:decimal" use="required" />
+						<xs:attribute name="transport" type="xs:string" use="required" />
+						<xs:attribute name="hind" type="xs:decimal" use="required" />
+						<xs:attribute name="transpordi_hind" type="xs:unsignedByte" use="required" />
+						<xs:attribute name="majutus" type="xs:unsignedByte" use="required" />
+						<xs:attribute name="ekskursioon" type="xs:unsignedByte" use="required" />
+						<xs:attribute name="muu" type="xs:unsignedByte" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
