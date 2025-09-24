@@ -127,6 +127,8 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="minusugupuu.xml" />
+    <Content Include="reis.xml" />
+    <Content Include="reis.xslt" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
