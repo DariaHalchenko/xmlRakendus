@@ -68,14 +68,15 @@
 					<th>Lennujaama riigikood</th>
 					<th>Lennu valjumislinn</th>
 					<th>Valjumisaeg</th>
+					<th>Saabumisriik</th>
 					<th>Kogumaksumuse</th>
 				</tr>
-				<xsl:for-each select="reis">
+				<xsl:for-each select="reis"> 
 				<!-- Ülesanne 1: Näita ainult lennud, mille hind on üle 50 
 				<xsl:for-each select="reis[@hind &gt; 50]"> -->
 				<!-- Ülesanne 2: Näita ainult lende, kus transport sisaldab „Airbus“
 				<xsl:for-each select="reis[contains(@transport, 'Airbus')]"> -->
-					<xsl:sort select="number(@lennukestus)" data-type="number" order="ascending"/>
+				<xsl:sort select="number(@lennukestus)" data-type="number" order="ascending"/>
 						<xsl:variable name="varv" select="(position() * 30) mod 360"/>
 						<tr>
 							<xsl:attribute name="style">
@@ -103,6 +104,7 @@
 							<td><xsl:value-of select="lennujaam/@riigikood"/></td>
 							<td><xsl:value-of select="lennujaam/aeg/@valjumislinn"/></td>
 							<td><xsl:value-of select="lennujaam/aeg/@valjumisaeg"/></td>
+							<td><xsl:value-of select="lennujaam/aeg/@saabumisriik"/></td>
 							<td>
 								<xsl:variable name="kokku" select="number(@hind) + number(@transpordi_hind) + number(@majutus) + number(@ekskursioon) + number(@muu)"/>
 								<xsl:value-of select="format-number($kokku,'0.00')"/>
